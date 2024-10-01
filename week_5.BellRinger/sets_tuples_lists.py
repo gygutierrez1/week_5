@@ -11,29 +11,89 @@
 #help(fruits)
 #print(help(fruits))
 #print(len(fruits))
-
-
+#list = []
+#Set = {}
+#Tuple = ()
 # you can reassign value using this:
 #print (fruit)
-
+fruits = {"banana", "coconut","apple", "orange"}
+print(fruits)
+#print(dir(fruits))
+#print(dir(fruit))
+#print(fruits[0])
 #fruits.remove("apple")
 #fruits. reverse()
 #print (fruits)
-
-
-
-
+#fruits.add ("pineapple" in fruits)
+#print(fruits)
+fruits. remove("apple")
+print(fruits)
 #cars = ("bmw", "maserati", "audi", "mercedes", "ferrari")
 #print (f"these are list of cars:",(cars))
 #cars.append("buggatti")
 #print(cars)
 #cars.remove ("maserati")
 #print(cars)
+#fruits(pop)
+#fruits.clear()
+
+fruits = ("banana", "coconut","apple", "orange")
+print(fruits)
+print(fruits.index("apple"))
+print(fruits.count("coconut"))
+
+# print(fruits)
+for fruit in fruits:
+    print(fruit)
+
+
+
+
+# dictionary = a collection of{key:value} pairs 
+    # ordered and changeable, no duplicates
+
+capitals = {"USA": "Washingto D.C.",
+            "India":"New Delhi",
+           "China": "Beijing",
+            "Russia":"Moscow" }
+
+#print(dir(capitals))
+#print(help(capitals))
+#capitals.get("USA")
+
+#if capitals.get("USA"):
+ #   print("That capital exists")
+#else:
+ #   print("That capital doesn't exist")    
+
+
+##capitals.update({"Germany":"Berlin"})
+#capitals.pop("China")
+#print(capitals)
+#capitals.popitem()
+#print(capitals)
+#capital.clear()
+
+keys = capitals.keys()
+print(keys)
+
+values = capitals.values()
+for value in values():
+    print(value)
+
+items = capitals.items()
+for  key, value in capitals.items():
+    print(f"{key}: {value}")
+    
+
+
+
+
 
 #for car in cars:
    # print(car)
     #print(len(car))
-    #carRequest = input = "add a ne w car please"
+    #carRequest = input = "add a new car please"
     #cars.append(carRequest)
 
 
@@ -62,5 +122,6 @@ print(friends)
 for friend in friends:
     print(len(friends))
     print(friend)
+
 
     
