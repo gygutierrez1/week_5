@@ -371,7 +371,7 @@ print(company["departments"]["Engineering"]["employees"][1])  # Output: 'Noah'
 print(company["departments"]["Engineering"]["budget"]) 
 
 overall_budget = (company["departments"]["Engineering"]["budget"]) + (company["departments"]["HR"]["budget"])
-print(overall_budget)
+print(overall_budge)
 
 # Define the dictionary
 school = {
